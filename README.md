@@ -22,7 +22,7 @@ docker run -v /usr/local/bin:/install bityoda/proxflix instl
 ## Install from GitHub
 
 ```bash
-git clone https://github.com/bityoda/proxflixtelne
+git clone https://github.com/bityoda/proxflix
 cd proxflix
 docker build -t bityoda/proxflix .
 ln -snf $PWD/proxflix /usr/local/bin/proxflix
