@@ -1,5 +1,9 @@
 ## About
 
+This is a fork from the original oblique/proxflix repository.
+The only difference is that i try to support all german video providers (see domains file)
+Or any other domain which try to restrict/modify access outside germany.
+
 ProxFlix is yet another smart DNS solution to bypass geo-blocking.
 
 ## Dependencies
@@ -11,16 +15,16 @@ ProxFlix is yet another smart DNS solution to bypass geo-blocking.
 ## Install from DockerHub
 
 ```bash
-docker pull oblique/proxflix
-docker run -v /usr/local/bin:/install oblique/proxflix instl
+docker pull bityoda/proxflix
+docker run -v /usr/local/bin:/install bityoda/proxflix instl
 ```
 
 ## Install from GitHub
 
 ```bash
-git clone https://github.com/oblique/proxflix
+git clone https://github.com/bityoda/proxflix
 cd proxflix
-docker build -t oblique/proxflix .
+docker build -t bityoda/proxflix .
 ln -snf $PWD/proxflix /usr/local/bin/proxflix
 ```
 
