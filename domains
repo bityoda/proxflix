@@ -73,6 +73,7 @@ cachefly.net
 google.de
 google.fr
 www.amazon.com
+www.amazon.de
 atv-ps.amazon.com
 fals.atv-ps.amazon.com
 atv-ext.amazon.com
@@ -88,6 +89,10 @@ api.eu-west-1.aiv-delivery.net
 avodassets-a.akamaihd.net
 unagi-eu.amazon.com
 m.media-amazon.com
+cloudfront.net
+d1l0nb3g075aoz.cloudfront.net
+images-na.ssl-images-amazon.com
+images-eu.ssl-images-amazon.com
 maxdome.de
 maxdome-onboard.de
 app1.maxdome-onboard.de
